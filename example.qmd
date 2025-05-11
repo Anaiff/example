@@ -10,3 +10,26 @@ This line is a change made on main branch.
 
 This line is a change on test branch. 
 
+##section##
+```{r}
+library(readr)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r}
+data <- read_csv("data/data.csv")
+
+data_select <- data %>%
+  filter(Entity == "Australia")
+```
+
+```{r}
+data_select %>%
+  ggplot(aes(x = Year, y = `Population - Sex: all - Age: all - Variant: estimates`))+
+  geom_line()+
+  labs(title = "Population of Australia", 
+       x = "Year", 
+       y = "Population")
+```
+
