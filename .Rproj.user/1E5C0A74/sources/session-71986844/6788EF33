@@ -3,7 +3,7 @@
     "path": "D:/Git/Git/example/example.qmd",
     "project_path": "example.qmd",
     "type": "quarto_markdown",
-    "hash": "2013559311",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1746969215672.0,
@@ -22,11 +22,11 @@
         "rmdVisualModeLocation": "1:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1746970411,
+    "lastKnownWriteTime": 1746970872,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1746970411331,
+    "last_content_update": 1746970872,
     "read_only": false,
     "read_only_alternatives": []
 }
